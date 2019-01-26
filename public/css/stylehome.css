@@ -1,0 +1,61 @@
+body{
+	background: #F2E4E4;
+}
+.center{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+/*Editando a capa*/
+#capa{
+	background: url("../img/capatablet.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 580px;
+}
+.faixa-preta{
+	background: rgba(1, 1, 1, 0.6);
+	padding: 15px 0px 15px 0px;
+}
+.title{
+	font-size: 3em;
+	color: white;
+	text-shadow: 4px 1px 2px black;
+}
+
+.button-baixar{
+	padding: 8px 60px 8px 60px;
+	background: rgba(1, 1, 1, 0.9);
+}
+
+/*inicio conteudo*/
+
+.sobreapp{
+	font-size: 1em;
+}
+
+
+/*EDitando o carousel*/
+.img-carousel-1{
+	background: url("../img/carousel1.jpg");
+	height: 600px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover
+}
+.img-carousel-2{
+	background: url("../img/carousel2.jpg");
+	height: 600px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover
+}
+.img-carousel-3{
+	background: url("../img/carousel3.jpg");
+	height: 600px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover
+}
