@@ -59,19 +59,9 @@
 	</div>
 	<!-- Arquivos boostrap -->
 	<script src="{{asset('https://code.jquery.com/jquery-1.10.2.min.js')}}"></script>
-    <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
-    <script src="{{asset('assets/js/main.js')}}"></script>
-	<script src="{{asset('assets/js/masonry.pkgd.min.js')}}"></script>
-	<script src="{{asset('assets/js/imagesloaded.js')}}"></script>
-    <script src="{{asset('assets/js/classie.js')}}"></script>
-	<script src="{{asset('assets/js/AnimOnScroll.js')}}"></script>
-	<script>
-		new AnimOnScroll( document.getElementById( 'grid' ), {
-			minDuration : 0.4,
-			maxDuration : 0.7,
-			viewportFactor : 0.2
-		} );
-	</script>
+    <script src="{{asset('assets/bootstrap/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('assets/bootstrap/js/main.js')}}"></script>
+	
 
 
 
