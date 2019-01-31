@@ -13,6 +13,15 @@ body{
 .navbar-brand{
 	font-size: 1.5em;
 }
+.bg-logo{
+	 background-image: linear-gradient(to right, black , grey);
+}
+.text-tipo{
+	color: grey;
+}
+.nav-link{
+	color: black !important;
+}
 /*Editando a capa*/
 #capa{
 	background: url("../img/capatablet.jpg");
@@ -76,4 +85,53 @@ body{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover
+}
+
+
+
+/*Editando o sobre*/
+
+.icons-sobre{
+	position: relative;
+	height: 128px;
+	width: 128px;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
+
+.faixa-preta-sobre{
+	background: rgba(1, 1, 1, 0.1);
+	width: 100%;
+}
+
+.sobre-op:hover .faixa-preta-sobre {
+	background: rgba(1, 1, 1, 0.3);
+	transition: 0.4s;
+}
+
+/*editando contato*/
+.formulario{
+	margin: 20px 0px;
+}
+.center-button{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+/*editando o rodape*/
+.copy{
+	font-size: 20px;
+	font-style: italic;
+}
+
+.icons-sociais{
+	width: 120px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+}
+
+.social-media{
+	padding: 5px 8px;
 }
