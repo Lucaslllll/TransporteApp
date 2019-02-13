@@ -1,5 +1,13 @@
+/*Importanções*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
+
+/*Universal*/
+h2, h3{
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
 body{
 	background: #F2E4E4;
+	font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
 .center{
 	height: 100vh;
@@ -7,11 +15,17 @@ body{
 	flex-direction: column;
 	justify-content: center;
 }
-
+.color-site{
+	background: #C06306 !important;
+}
 
 /* Editando o menu */
+.active{
+	color: #C06306 !important;
+}
 .navbar-brand{
 	font-size: 1.5em;
+	color: #C06306 !important;
 }
 .bg-logo{
 	 background-image: linear-gradient(to right, black , grey);
@@ -19,8 +33,12 @@ body{
 .text-tipo{
 	color: grey;
 }
-.nav-link{
-	color: black !important;
+.nav-item{
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+.color-menu{
+	background: white;
 }
 /*Editando a capa*/
 #capa{
@@ -28,23 +46,76 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	height: 580px;
+	height: 100vh;
+	min-height: 650px;
+}
+.hr{
+	border: 2px solid white;
+	max-width: 45px;
+	border-radius: 100px;
+	margin: 15px auto;
 }
 .faixa-preta{
-	background: rgba(1, 1, 1, 0.6);
+	background: rgba(1, 1, 1, 0.4);
 	padding: 15px 0px 15px 0px;
 }
 .title{
-	font-size: 3em;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-size: 4rem;
 	color: white;
 	text-shadow: 4px 1px 2px black;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+.desc{
+	font-size: 1.15rem;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 2px 1px black;
 }
 
 .button-baixar{
 	padding: 8px 60px 8px 60px;
-	background: rgba(1, 1, 1, 0.9);
+	border-radius: 500px;
+}
+/*Conteudo inicial*/
+#conteudo-inicial{
+	padding: 8rem 0;
+	background: #309D32;
+}
+.bg-cor{
+	background: #C06306;
+	border-radius: 0px 20px 20px 0px;
+	padding: 20px 15px; 
 }
 
+.title-conteudo-inicial{
+	color: white;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-weight: bolder;
+	font-size: 1.6em;
+	margin-left: 100px;
+}
+.desc-conteudo-inicial{
+	color: white;
+	font-size: 1.1em;
+	margin-left: 100px;
+	text-indent: 50px;
+	text-align: justify;
+}
+.store-icon{
+	height: 90px;
+}
+
+
+.dashed{
+	border-bottom: 1px dashed white;
+}
+
+.cell{
+	width: 100%;
+}
 /*inicio conteudo*/
 
 .sobreapp{
@@ -109,14 +180,27 @@ body{
 	transition: 0.4s;
 }
 
-/*editando contato*/
-.formulario{
-	margin: 20px 0px;
+.bg-sobre-2{
+	background: #309D32;
+	padding: 20px 20px;
 }
-.center-button{
-	position: relative;
-	left: 50%;
-	transform: translate(-50%, 0);
+
+.bg-sobre-3{
+	background: #C06306;
+	padding: 20px 20px;
+}
+
+/*editando contato*/
+.bg-contato{
+	background: #309D32;
+}
+
+.icon-whatsapp{
+	height: 150px;
+}
+.contato{
+	border-radius: 70px;
+	padding: 20px 0px 20px 0px;
 }
 
 /*editando o rodape*/
